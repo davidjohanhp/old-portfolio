@@ -1,6 +1,6 @@
 import React from "react";
 // import "./stars.scss";
-import Typed from "react-typed";
+// import Typed from "react-typed";
 
 class Intro extends React.Component {
   render() {
@@ -18,7 +18,7 @@ class Intro extends React.Component {
               <p className="intro-subtitle">
                 <span className="text-slider-items"></span>
                 <strong className="text-slider">
-                  <Typed
+                  {/* <Typed
                     strings={[
                       "Front End Developer",
                       "Back End Developer",
@@ -28,7 +28,7 @@ class Intro extends React.Component {
                     backDelay={1100}
                     backSpeed={30}
                     loop
-                  />
+                  /> */}
                 </strong>
               </p>
               <p className="pt-3">
