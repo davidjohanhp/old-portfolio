@@ -171,8 +171,8 @@ body {
     content: '';
     position: absolute;
     height: 3px;
-    background-color: #0078ff;
-    width: 100px;
+    background-color: #000000;
+    width: 120px;
     bottom: -12px;
   }
   
