@@ -1,6 +1,5 @@
 import React from "react";
-// import "./stars.scss";
-// import Typed from "react-typed";
+
 import Typical from "react-typical"
 
 const steps = [
@@ -26,20 +25,8 @@ class Intro extends React.Component {
                 <span className="text-slider-items"></span>
                 <strong className="text-slider">
                   <div>
-                    <Typical wrapper="span" steps={steps} loop={1} className={'caca'} />
+                    <Typical wrapper="span" steps={steps} loop={Infinity} />
                   </div>
-                  {/* <Typed
-                    strings={[
-                      "Front End Developer",
-                      "Back End Developer",
-                      "Mobile Developer",
-                    ]}
-                    typeSpeed={80}
-                    backDelay={1100}
-                    backSpeed={30}
-                    loop
-                  /> */}
-
                 </strong>
               </p>
               <p className="pt-3">
