@@ -28,29 +28,50 @@ class About extends React.Component {
       return (
         <section id="about" className="about-mf sect-pt4 route">
           <div className="container">
+          <div className="row">
+            <div className="col-sm-12">
+              <div className="title-box text-center">
+                <h3 className="title-a">About Me</h3>
+                <p className="subtitle-a">
+                  Incididunt nostrud id aute culpa excepteur pariatur consequat
+                  elit culpa nulla enim anim incididunt.
+                </p>
+                <div className="line-mf"></div>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col">
+              <div className="about-me pt-4 pt-md-0">
+                {/* <div className="title-box-2">
+                    <h5 className="title-left">About Me</h5>
+                </div> */}
+                {this.state.about_me.map(content => {
+                  return (
+                    <p className="lead text-white" key={content.id}>
+                      {content.content}
+                    </p>
+                  );
+                })}
+              </div>
+            </div>
+          </div>
+        </div>
+          {/* <div className="container">
             <div className="row">
               <div className="col-sm-12">
                 <div className="box-shadow-full">
                   <div className="row">
                     <div className="col">
                       <div className="about-me pt-4 pt-md-0">
-                        <div className="title-box-2">
-                          <h5 className="title-left">About Me</h5>
-                        </div>
-                        {this.state.about_me.map(content => {
-                          return (
-                            <p className="lead" key={content.id}>
-                              {content.content}
-                            </p>
-                          );
-                        })}
+                        
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </section>
       );
     }

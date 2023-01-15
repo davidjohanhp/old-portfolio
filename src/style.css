@@ -12,16 +12,17 @@ body {
   h4,
   h5,
   h6 {
-    color: #1e1e1e;
+    color: #ffffff;
   }
   
   a {
     color: #1e1e1e;
+    text-decoration: none;
     transition: all 0.5s ease-in-out;
   }
   
   a:hover {
-    color: #0078ff;
+    color: #000000;
     text-decoration: none;
     transition: all 0.5s ease-in-out;
   }
@@ -31,7 +32,7 @@ body {
   }
   
   .color-a {
-    color: #0078ff;
+    color: #000000;
   }
   
   .color-d {
@@ -146,11 +147,11 @@ body {
   }
   
   .subtitle-a {
-    color: #4e4e4e;
+    color: #fffdfd;
   }
   
   .line-mf {
-    width: 40px;
+    width: 1000px;
     height: 5px;
     background-color: #0078ff;
     margin: 0 auto;
@@ -724,28 +725,35 @@ body {
   .work-content .w-more {
     color: #4e4e4e;
     font-size: .8rem;
+    text-decoration: none;
   }
   
   .work-content .w-more .w-ctegory {
-    color: #0078ff;
+    color: #000000;
+    text-decoration: none;
   }
   
   .work-content .w-like {
     font-size: 2.5rem;
-    color: #0078ff;
+    color: #000000;
     float: right;
+    text-decoration: none;
   }
   
   .work-content .w-like a {
-    color: #0078ff;
+    color: #000000;
+    text-decoration: none;
   }
   
   .work-content .w-like .num-like {
     font-size: .7rem;
+    text-decoration: none;
   }
   
   .w-title {
     font-size: 1.2rem;
+    color: black;
+    text-decoration: none;
   }
   
   /*
@@ -998,3 +1006,43 @@ body {
       bottom: 15px;
     }
   }
+
+  ul.skills__list {
+    color: rgb(255, 255, 255);
+  }
+
+  .skills__list {
+    max-width: 450px;
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .skills__list-item {
+    margin: 0.5em;
+  }
+
+  .btn {
+    display: block;
+    cursor: pointer;
+    padding: 0.8em 1.4em;
+    font-weight: 500;
+    font-size: 0.9rem;
+    text-transform: lowercase;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .btn--plain {
+    text-transform: initial;
+    background-color: var(--clr-bg-alt);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+    border: 0;
+  }
+  
+  .btn--plain:hover {
+    transform: translateY(-4px);
+  }
+
+  
