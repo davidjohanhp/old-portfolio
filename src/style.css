@@ -4,6 +4,7 @@ GENERAL STYLING
 body {
     background-color: #000000!important;
     color: #4e4e4e!important;
+    position: relative; 
   }
   
   h1,

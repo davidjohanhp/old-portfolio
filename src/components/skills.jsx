@@ -22,7 +22,7 @@ class Skills extends React.Component {
   
     render() {
       return (
-        <section id="about" className="about-mf sect-pt4 route">
+        <section id="skills" className="about-mf sect-pt4 route">
         <div className="container">
           <div className="row">
             <div className="col-sm-12">
