@@ -1046,4 +1046,42 @@ body {
     transform: translateY(-4px);
   }
 
+  .skill-logo {
+    width: 35%;
+    height: auto;
+    margin: 0.5em;
+  }
+
+  .skills {
+    max-width: 68.75rem;
+    margin: auto;
+    text-align: center;
+    /* margin-top: 2.5rem; */
+  }
+  
+  .skill-header {
+    margin-bottom: 1rem;
+  }
+
+  .skills-wrapper {
+    margin: 0 auto;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    justify-content: center;
+  }
+  
+  .skills-wrapper img {
+    padding: 1.25rem;
+  }
+  
+  .icon {
+    /* width: 18%; */
+    height: auto;
+    width: 11.875rem;
+    /* height: 11.25rem; */
+  }
+
+  .icon:hover {
+    transform: translateY(-4px);
+  }
   
