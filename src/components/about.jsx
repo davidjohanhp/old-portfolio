@@ -8,18 +8,18 @@ class About extends React.Component {
           {
             id: "first-p-about",
             content:
-              "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
+              "Hi, my name is David Johan Hasiholan Parhusip, I'm currently in my second year of study in Computer Science at Universitas Indonesia."
           },
           {
             id: "second-p-about",
             content:
-              "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
+              "I’m hardworking and dedicated towards my work, also I ensure that I would work to the fullest of my capabilities. I have been passionate working in the IT field and I know I can be a valuable support resource. With my educational background, I have a year of hands-on experience working with Python, Java, CSS, HTML, JavaScript, Flutter, and PostgreSQL. I also have experience on efficiently working back-end development using Springboot and Django. In my most recent education, I successfully developed an application using Flutter and Django framework, which improved my communication skill and leading other teammates during the project."
           },
-          {
-            id: "third-p-about",
-            content:
-              "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
-          }
+          // {
+          //   id: "third-p-about",
+          //   content:
+          //     "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
+          // }
         ]
       };
     }
@@ -33,8 +33,7 @@ class About extends React.Component {
               <div className="title-box text-center">
                 <h3 className="title-a">About Me</h3>
                 <p className="subtitle-a">
-                  Incididunt nostrud id aute culpa excepteur pariatur consequat
-                  elit culpa nulla enim anim incididunt.
+                  David Johan Hasiholan Parhusip, Information Systems Student
                 </p>
                 <div className="line-mf"></div>
               </div>

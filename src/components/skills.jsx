@@ -41,8 +41,7 @@ class Skills extends React.Component {
               <div className="title-box text-center">
                 <h3 className="title-a">Skills</h3>
                 <p className="subtitle-a">
-                  Incididunt nostrud id aute culpa excepteur pariatur consequat
-                  elit culpa nulla enim anim incididunt.
+                  Current Development Related Skills
                 </p>
                 <div className="line-mf"></div>
               </div>

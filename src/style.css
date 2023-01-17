@@ -703,6 +703,8 @@ body {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     background-color: #fff;
+    /* background-color: transparent !important; */
+    /* opacity: 0.5; */
   }
   
   .work-box:hover img {
@@ -713,6 +715,8 @@ body {
   .work-img {
     display: block;
     overflow: hidden;
+    width:auto; 
+    max-height:200px;
   }
   
   .work-img img {
@@ -720,7 +724,7 @@ body {
   }
   
   .work-content {
-    padding: 2rem 3% 1rem 4%;
+    padding: 1rem 3% 1rem 4%;
   }
   
   .work-content .w-more {
@@ -730,7 +734,7 @@ body {
   }
   
   .work-content .w-more .w-ctegory {
-    color: #000000;
+    color: #2c74c6;
     text-decoration: none;
   }
   
@@ -1083,5 +1087,27 @@ body {
 
   .icon:hover {
     transform: translateY(-4px);
+  }
+  
+  .porto {
+    padding-left: 30px;
+    padding-right: 30px
+  }
+
+  .lead {
+    padding-left: 30px;
+    padding-right: 30px
+  }
+
+  .circle-singleline {
+    margin: 20px;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;    
+    background: #808080;
+    color: #fff;
   }
   
