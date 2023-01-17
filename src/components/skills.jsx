@@ -1,5 +1,17 @@
 import React from "react";
 
+import html from "../img/html-logo.png";
+import css from "../img/css-logo.png";
+import django from "../img/django-logo.png";
+import docker from "../img/docker-logo.png";
+import git from "../img/git-logo.png";
+import heroku from "../img/heroku-logo.png";
+import js from "../img/js-logo.png";
+import postgres from "../img/postgres-logo.png";
+import react from "../img/react-logo.png";
+import springboot from "../img/springboot-logo.png";
+import htmlcssjs from "../img/html-css-js.png";
+
 class Skills extends React.Component {
     constructor() {
       super();
@@ -38,14 +50,137 @@ class Skills extends React.Component {
           </div>
           <div className="row">
             <div className="col">
-              <div className="about-me pt-4 pt-md-0">
-                  <ul className='skills__list text-white'>
+              <div className="skills pt-4 pt-md-0">
+                <div class="skills-wrapper">
+                {/* <div>
+                    <img
+                      src={htmlcssjs}
+                      alt=""
+                      loading="lazy"
+                      class="icon icon-card"
+                    />
+                  </div> */}
+                  <div>
+                    <img
+                      src={html}
+                      alt=""
+                      loading="lazy"
+                      class="icon icon-card"
+                    />
+                    <img
+                      src={css}
+                      alt=""
+                      loading="lazy"
+                      class="icon icon-card"
+                    />
+                    <img
+                      src={js}
+                      alt=""
+                      loading="lazy"
+                      class="icon icon-card"
+                    />
+                  </div>
+
+                  <div>
+                    <img
+                      src={react}
+                      alt=""
+                      loading="lazy"
+                      class="icon icon-card"
+                    />
+                    <img
+                      src={django}
+                      alt=""
+                      loading="lazy"
+                      class="icon icon-card"
+                    />
+                    <img
+                      src={springboot}
+                      alt=""
+                      loading="lazy"
+                      class="icon icon-card"
+                    />
+                  </div>
+
+                  <div>
+                    <img
+                      src={postgres}
+                      alt=""
+                      loading="lazy"
+                      class="icon icon-card"
+                    />
+                    <img
+                      src={git}
+                      alt=""
+                      loading="lazy"
+                      class="icon icon-card"
+                    />
+                    <img
+                      src={docker}
+                      alt=""
+                      loading="lazy"
+                      class="icon icon-card"
+                    />
+                  </div>
+
+                  <div>
+                    {/* <img
+                      src={heroku}
+                      alt=""
+                      loading="lazy"
+                      class="icon icon-card"
+                    /> */}
+                    {/* <img
+                      src={git}
+                      alt=""
+                      loading="lazy"
+                      class="icon icon-card"
+                    />
+                    <img
+                      src={docker}
+                      alt=""
+                      loading="lazy"
+                      class="icon icon-card"
+                    /> */}
+                  </div>
+                </div>
+                  {/* <ul className='skills__list text-white'>
+                    <li className='skills__list-item btn btn--plain'>
+                      <img src={html} className='skill-logo'></img>
+                    </li>
+                    <li className='skills__list-item btn btn--plain'>
+                      <img src={css} className='skill-logo'></img>
+                    </li>
+                    <li className='skills__list-item btn btn--plain'>
+                      <img src={js} className='skill-logo'></img>
+                    </li>
+                    <li className='skills__list-item btn btn--plain'>
+                      <img src={react} className='skill-logo'></img>
+                    </li>
+                    <li className='skills__list-item btn btn--plain'>
+                      <img src={springboot} className='skill-logo'></img>
+                    </li>
+                    <li className='skills__list-item btn btn--plain'>
+                      <img src={django} className='skill-logo'></img>
+                    </li>
+                    <li className='skills__list-item btn btn--plain'>
+                      <img src={postgres} className='skill-logo'></img>
+                    </li>
+                    <li className='skills__list-item btn btn--plain'>
+                      <img src={git} className='skill-logo'></img>
+                    </li>
+                    <li className='skills__list-item btn btn--plain'>
+                      <img src={heroku} className='skill-logo'></img>
+                    </li>
+                    <li className='skills__list-item btn btn--plain'>
+                      <img src={docker} className='skill-logo'></img>
+                    </li>
                     {this.state.curSkills.map((skill) => (
                       <li key={skill.id} className='skills__list-item btn btn--plain'>
                         {skill}
                       </li>
                     ))}
-                  </ul>
+                  </ul> */}
               </div>
             </div>
           </div>
