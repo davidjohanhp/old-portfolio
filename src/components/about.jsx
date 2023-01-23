@@ -8,12 +8,12 @@ class About extends React.Component {
           {
             id: "first-p-about",
             content:
-              "Hi, my name is David Johan Hasiholan Parhusip, I'm currently in my second year of study in Computer Science at Universitas Indonesia."
+              "Hi, my name is David Johan Hasiholan Parhusip, I'm currently in my third year of study in Computer Science at Universitas Indonesia."
           },
           {
             id: "second-p-about",
             content:
-              "I’m hardworking and dedicated towards my work, also I ensure that I would work to the fullest of my capabilities. I have been passionate working in the IT field and I know I can be a valuable support resource. With my educational background, I have a year of hands-on experience working with Python, Java, CSS, HTML, JavaScript, Flutter, and PostgreSQL. I also have experience on efficiently working back-end development using Springboot and Django. In my most recent education, I successfully developed an application using Flutter and Django framework, which improved my communication skill and leading other teammates during the project."
+              "I’m hardworking and dedicated towards my work, also I ensure that I would work to the fullest of my capabilities. I have been passionate working in the IT field and I know I can be a valuable support resource. With my educational background, I have a year of hands-on experience working with Python, Java, CSS, HTML, JavaScript, Flutter, and PostgreSQL. I also have experience on efficiently working back-end development using Springboot and Django. In my most recent education, I successfully developed an application using Flutter and Springboot framework, which improved my communication skill and leading other teammates during the project."
           },
           // {
           //   id: "third-p-about",

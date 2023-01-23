@@ -80,7 +80,7 @@ class Navbar extends React.Component {
               style={{ maxWidth: "100px" }}
             /> */}
           </a>
-          <button
+          {/* <button
             className="navbar-toggler collapsed"
             type="button"
             data-toggle="collapse"
@@ -92,7 +92,7 @@ class Navbar extends React.Component {
             <span></span>
             <span></span>
             <span></span>
-          </button>
+          </button> */}
           <div className="navbar-collapse collapse justify-content-end" id="navbarDefault">
             <ul className="navbar-nav">
               <li className="nav-item">
