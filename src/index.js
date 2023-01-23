@@ -21,6 +21,7 @@ import About from './components/about';
 import Skills from './components/skills';
 import Portfolio from './components/portfolio';
 import Navbar from './components/navbar';
+import Contact from './components/contact';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -29,6 +30,7 @@ ReactDOM.render(
     <About />
     <Skills />
     <Portfolio />
+    <Contact />
     {/* <App /> */}
   </React.StrictMode>,
   document.getElementById('root')
