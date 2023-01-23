@@ -2,6 +2,22 @@ import React from "react";
 import $ from "jquery";
 
 class Navbar extends React.Component {
+    // Function will execute on click of button
+    downloadCV = () => {
+      // using Java Script method to get PDF file
+      fetch('cv.pdf').then(response => {
+          response.blob().then(blob => {
+              // Creating new object of PDF file
+              const fileURL = window.URL.createObjectURL(blob);
+              // Setting various property values
+              let alink = document.createElement('a');
+              alink.href = fileURL;
+              alink.download = 'cv.pdf';
+              alink.click();
+          })
+      })
+  }
+
   componentDidMount() {
     const nav = $("nav");
     let navHeight = nav.outerHeight();
@@ -113,6 +129,11 @@ class Navbar extends React.Component {
               <li className="nav-item">
                 <a className="nav-link js-scroll" href="#work">
                   Portfolio
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link js-scroll" href="#" onClick={this.downloadCV}>
+                  CV Download
                 </a>
               </li>
             </ul>
