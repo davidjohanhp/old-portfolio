@@ -813,7 +813,8 @@ body {
   }
   
   .contact-mf {
-    margin-top: 4rem;
+    /* margin-top: 1%; */
+    margin-bottom: 10%;
   }
   
   /*
@@ -893,15 +894,16 @@ body {
   }
   
   .button:hover {
-    background-color: #0062d3;
-    color: #fff;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
     transition: all 500ms ease;
   }
   
   .button-a {
-    background-color: #0078ff;
+    background-color: #000000;
     color: #fff;
     border-color: #cde1f8;
+    font-size: medium;
   }
   
   .button-big {
@@ -937,7 +939,7 @@ body {
     }
   
     .contact-mf .box-pl2 {
-      margin-top: 3rem;
+      /* margin-top: 3rem; */
       padding-left: 0rem;
     }
   }
@@ -1093,6 +1095,11 @@ body {
   .porto {
     padding-left: 30px;
     padding-right: 30px
+  }
+
+  .contact-form {
+    padding-left: 25%;
+    padding-right: 25%;
   }
 
   .lead {
