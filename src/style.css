@@ -152,7 +152,8 @@ body {
   }
   
   .line-mf {
-    width: 1000px;
+    /* width: 1000px; */
+    width: 50%;
     height: 5px;
     background-color: #0078ff;
     margin: 0 auto;
