@@ -5,14 +5,14 @@ class Navbar extends React.Component {
     // Function will execute on click of button
     downloadCV = () => {
       // using Java Script method to get PDF file
-      fetch('cv.pdf').then(response => {
+      fetch('CV_David Johan Hasiholan Parhusip.pdf').then(response => {
           response.blob().then(blob => {
               // Creating new object of PDF file
               const fileURL = window.URL.createObjectURL(blob);
               // Setting various property values
               let alink = document.createElement('a');
               alink.href = fileURL;
-              alink.download = 'cv.pdf';
+              alink.download = 'CV_David Johan Hasiholan Parhusip.pdf';
               alink.click();
           })
       })

@@ -6,6 +6,15 @@ import rumahsehatweb_login from "../img/rumahsehat-web/rumahsehatweb-login.png";
 import rumahsehatweb_home from "../img/rumahsehat-web/rumahsehatweb-home.png";
 import rumahsehatweb_chart from "../img/rumahsehat-web/rumahsehatweb-chart.png";
 
+import rumahsehatmob_login from "../img/rumahsehat-mobile/login.png";
+import rumahsehatmob_logout from "../img/rumahsehat-mobile/logout.png";
+import rumahsehatmob_home from "../img/rumahsehat-mobile/home.png";
+import rumahsehatmob_profile from "../img/rumahsehat-mobile/profile.png";
+import rumahsehatmob_topup from "../img/rumahsehat-mobile/topup.png";
+import rumahsehatmob_makeappointment from "../img/rumahsehat-mobile/makeappointment.png";
+import rumahsehatmob_appointmentsuccess from "../img/rumahsehat-mobile/appointmentsuccess.png";
+import rumahsehatmob_detailappointment from "../img/rumahsehat-mobile/detailappointment.png";
+
 
 class Portfolio extends React.Component {
     constructor() {
@@ -70,17 +79,17 @@ class Portfolio extends React.Component {
               </div>
               <div className="col-md-4 container">
                 <div className="work-box">
-                  <a href={panda} data-lightbox="gallery-lindungipeduli" className="text-white">
+                  <a href={rumahsehatmob_login} data-lightbox="gallery-rumahsehatmob" className="text-white">
                     <div className="work-img">
-                      <img src={panda} alt="" className="img-fluid" />
+                      <img src={rumahsehatmob_login} alt="" className="img-fluid" />
                     </div>
                     <div className="work-content">
                       <div className="row">
                         <div className="col-sm-8">
-                          <h2 className="w-title">Lorem Ipsum</h2>
+                          <h2 className="w-title">RumahSehat Mobile</h2>
                           <div className="w-more">
                             <span className="w-ctegory">
-                              HTML5 CSS3 Bootstrap ReactJS
+                              Flutter Springboot
                             </span>
                           </div>
                         </div>
@@ -88,36 +97,50 @@ class Portfolio extends React.Component {
                     </div>
                   </a>
                   <a
-                    href={panda}
-                    data-lightbox="gallery-lindungipeduli"
+                    href={rumahsehatmob_home}
+                    data-lightbox="gallery-rumahsehatmob"
                     style={{ display: "none" }}
                   >
                     jsx-a11y/anchor-has-content warning
                   </a>
                   <a
-                    href={panda}
-                    data-lightbox="gallery-lindungipeduli"
+                    href={rumahsehatmob_profile}
+                    data-lightbox="gallery-rumahsehatmob"
                     style={{ display: "none" }}
                   >
                     jsx-a11y/anchor-has-content warning
                   </a>
                   <a
-                    href={panda}
-                    data-lightbox="gallery-lindungipeduli"
+                    href={rumahsehatmob_topup}
+                    data-lightbox="gallery-rumahsehatmob"
                     style={{ display: "none" }}
                   >
                     jsx-a11y/anchor-has-content warning
                   </a>
                   <a
-                    href={panda}
-                    data-lightbox="gallery-lindungipeduli"
+                    href={rumahsehatmob_makeappointment}
+                    data-lightbox="gallery-rumahsehatmob"
                     style={{ display: "none" }}
                   >
                     jsx-a11y/anchor-has-content warning
                   </a>
                   <a
-                    href={panda}
-                    data-lightbox="gallery-lindungipeduli"
+                    href={rumahsehatmob_appointmentsuccess}
+                    data-lightbox="gallery-rumahsehatmob"
+                    style={{ display: "none" }}
+                  >
+                    jsx-a11y/anchor-has-content warning
+                  </a>
+                  <a
+                    href={rumahsehatmob_detailappointment}
+                    data-lightbox="gallery-rumahsehatmob"
+                    style={{ display: "none" }}
+                  >
+                    jsx-a11y/anchor-has-content warning
+                  </a>
+                  <a
+                    href={rumahsehatmob_logout}
+                    data-lightbox="gallery-rumahsehatmob"
                     style={{ display: "none" }}
                   >
                     jsx-a11y/anchor-has-content warning
@@ -126,122 +149,7 @@ class Portfolio extends React.Component {
                 {/* copy buat tiap project */}
                 
               </div>
-              <div className="col-md-4 container">
-                <div className="work-box">
-                  <a href={panda} data-lightbox="gallery-lindungipeduli" className="text-white">
-                    <div className="work-img">
-                      <img src={panda} alt="" className="img-fluid" />
-                    </div>
-                    <div className="work-content">
-                      <div className="row">
-                        <div className="col-sm-8">
-                          <h2 className="w-title">Lorem Ipsum</h2>
-                          <div className="w-more">
-                            <span className="w-ctegory">
-                              HTML5 CSS3 Bootstrap ReactJS
-                            </span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </a>
-                  <a
-                    href={panda}
-                    data-lightbox="gallery-lindungipeduli"
-                    style={{ display: "none" }}
-                  >
-                    jsx-a11y/anchor-has-content warning
-                  </a>
-                  <a
-                    href={panda}
-                    data-lightbox="gallery-lindungipeduli"
-                    style={{ display: "none" }}
-                  >
-                    jsx-a11y/anchor-has-content warning
-                  </a>
-                  <a
-                    href={panda}
-                    data-lightbox="gallery-lindungipeduli"
-                    style={{ display: "none" }}
-                  >
-                    jsx-a11y/anchor-has-content warning
-                  </a>
-                  <a
-                    href={panda}
-                    data-lightbox="gallery-lindungipeduli"
-                    style={{ display: "none" }}
-                  >
-                    jsx-a11y/anchor-has-content warning
-                  </a>
-                  <a
-                    href={panda}
-                    data-lightbox="gallery-lindungipeduli"
-                    style={{ display: "none" }}
-                  >
-                    jsx-a11y/anchor-has-content warning
-                  </a>
-                </div>
-                {/* copy buat tiap project */}
-                
-              </div>
-              <div className="col-md-4 container">
-                <div className="work-box">
-                  <a href={panda} data-lightbox="gallery-lindungipeduli" className="text-white">
-                    <div className="work-img">
-                      <img src={panda} alt="" className="img-fluid" />
-                    </div>
-                    <div className="work-content">
-                      <div className="row">
-                        <div className="col-sm-8">
-                          <h2 className="w-title">Lorem Ipsum</h2>
-                          <div className="w-more">
-                            <span className="w-ctegory">
-                              HTML5 CSS3 Bootstrap ReactJS
-                            </span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </a>
-                  <a
-                    href={panda}
-                    data-lightbox="gallery-lindungipeduli"
-                    style={{ display: "none" }}
-                  >
-                    jsx-a11y/anchor-has-content warning
-                  </a>
-                  <a
-                    href={panda}
-                    data-lightbox="gallery-lindungipeduli"
-                    style={{ display: "none" }}
-                  >
-                    jsx-a11y/anchor-has-content warning
-                  </a>
-                  <a
-                    href={panda}
-                    data-lightbox="gallery-lindungipeduli"
-                    style={{ display: "none" }}
-                  >
-                    jsx-a11y/anchor-has-content warning
-                  </a>
-                  <a
-                    href={panda}
-                    data-lightbox="gallery-lindungipeduli"
-                    style={{ display: "none" }}
-                  >
-                    jsx-a11y/anchor-has-content warning
-                  </a>
-                  <a
-                    href={panda}
-                    data-lightbox="gallery-lindungipeduli"
-                    style={{ display: "none" }}
-                  >
-                    jsx-a11y/anchor-has-content warning
-                  </a>
-                </div>
-                {/* copy buat tiap project */}
-                
-              </div>
+              
             </div>
           </div>
         </section>

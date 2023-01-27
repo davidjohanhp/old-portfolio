@@ -15,11 +15,11 @@ class About extends React.Component {
             content:
               "I’m hardworking and dedicated towards my work, also I ensure that I would work to the fullest of my capabilities. I have been passionate working in the IT field and I know I can be a valuable support resource. With my educational background, I have a year of hands-on experience working with Python, Java, CSS, HTML, JavaScript, Flutter, and PostgreSQL. I also have experience on efficiently working back-end development using Springboot and Django. In my most recent education, I successfully developed an application using Flutter and Springboot framework, which improved my communication skill and leading other teammates during the project."
           },
-          // {
-          //   id: "third-p-about",
-          //   content:
-          //     "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
-          // }
+          {
+            id: "third-p-about",
+            content:
+              "In the next few years, my goal is to successfully master my position and advance into the field of computer programming. As I look forward to my next chapter, I hope to apply my experience and perspective to help companies hit and exceed goals."
+          }
         ]
       };
     }
