@@ -1,5 +1,5 @@
 import React from "react";
-import { FaInstagram, FaLinkedin} from "react-icons/fa";
+import { FaInstagram, FaLinkedin, FaGithub} from "react-icons/fa";
 import { IconContext } from "react-icons";
 
 class Footer extends React.Component {
@@ -25,6 +25,11 @@ class Footer extends React.Component {
                                     <FaLinkedin /> 
                                     {/* <i className="fab fa-instagram"></i> */}
                                     {/* <span className="">LinkedIn</span> */}
+                                </a>
+                            </li>
+                            <li className="nav-item-footer"> 
+                                <a className="" href="https://github.com/davidjohanhp" title="Instagram">
+                                    <FaGithub /> 
                                 </a>
                             </li>
                             {/* <li className="nav-item"><a className="nav-link" href="" title="LinkedIn"><i className="fab fa-linkedin"></i><span className="menu-title sr-only">LinkedIn</span></a></li> */}
