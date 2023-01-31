@@ -22,6 +22,7 @@ import Skills from './components/skills';
 import Portfolio from './components/portfolio';
 import Navbar from './components/navbar';
 import Contact from './components/contact';
+import Footer from './components/footer';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -31,6 +32,7 @@ ReactDOM.render(
     <Skills />
     <Portfolio />
     <Contact />
+    <Footer />
     {/* <App /> */}
   </React.StrictMode>,
   document.getElementById('root')
