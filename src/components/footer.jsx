@@ -6,7 +6,7 @@ class Footer extends React.Component {
     render () {
         return (
             <section id="footer" className="footer-mf route">
-                <div className="footer text-center">
+                <div className="footer text-center d-none d-md-block"> {/* hides on mobile */}
                     <h4 className="footer-name">David Johan Hasiholan Parhusip</h4>
                     <p className="footer-desc">Undergraduate Information Systems</p>
                     <div class="social-nav">
@@ -21,14 +21,14 @@ class Footer extends React.Component {
                                 </a>
                             </li>
                             <li className="nav-item-footer"> 
-                                <a className="" href="https://www.linkedin.com/in/davidjh-parhusip/" title="Instagram">
+                                <a className="" href="https://www.linkedin.com/in/davidjh-parhusip/" title="LinkedIn">
                                     <FaLinkedin /> 
                                     {/* <i className="fab fa-instagram"></i> */}
                                     {/* <span className="">LinkedIn</span> */}
                                 </a>
                             </li>
                             <li className="nav-item-footer"> 
-                                <a className="" href="https://github.com/davidjohanhp" title="Instagram">
+                                <a className="" href="https://github.com/davidjohanhp" title="Github">
                                     <FaGithub /> 
                                 </a>
                             </li>
