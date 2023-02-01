@@ -1156,3 +1156,14 @@ body {
     /* padding-top: 0%; */
     padding-bottom: 2.5%;
   }
+  
+  .intro-photo {
+    width: 100%;
+    /* resize: both; */
+  }
+
+  .align-middle {
+    /* display: inline; */
+    display: grid;
+    place-items: center;
+  }

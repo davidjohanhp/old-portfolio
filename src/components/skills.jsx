@@ -10,7 +10,7 @@ import js from "../img/js-logo.png";
 import postgres from "../img/postgres-logo.png";
 import react from "../img/react-logo.png";
 import springboot from "../img/springboot-logo.png";
-import htmlcssjs from "../img/html-css-js.png";
+// import htmlcssjs from "../img/html-css-js.png";
 
 class Skills extends React.Component {
     constructor() {
@@ -64,19 +64,19 @@ class Skills extends React.Component {
                       src={html}
                       alt=""
                       loading="lazy"
-                      class="icon icon-card"
+                      className="icon icon-card"
                     />
                     <img
                       src={css}
                       alt=""
                       loading="lazy"
-                      class="icon icon-card"
+                      className="icon icon-card"
                     />
                     <img
                       src={js}
                       alt=""
                       loading="lazy"
-                      class="icon icon-card"
+                      className="icon icon-card"
                     />
                   </div>
 
@@ -85,19 +85,19 @@ class Skills extends React.Component {
                       src={react}
                       alt=""
                       loading="lazy"
-                      class="icon icon-card"
+                      className="icon icon-card"
                     />
                     <img
                       src={django}
                       alt=""
                       loading="lazy"
-                      class="icon icon-card"
+                      className="icon icon-card"
                     />
                     <img
                       src={springboot}
                       alt=""
                       loading="lazy"
-                      class="icon icon-card"
+                      className="icon icon-card"
                     />
                   </div>
 
@@ -106,19 +106,19 @@ class Skills extends React.Component {
                       src={postgres}
                       alt=""
                       loading="lazy"
-                      class="icon icon-card"
+                      className="icon icon-card"
                     />
                     <img
                       src={git}
                       alt=""
                       loading="lazy"
-                      class="icon icon-card"
+                      className="icon icon-card"
                     />
                     <img
                       src={docker}
                       alt=""
                       loading="lazy"
-                      class="icon icon-card"
+                      className="icon icon-card"
                     />
                   </div>
 
