@@ -5,6 +5,7 @@ body {
     background-color: #000000!important;
     color: #4e4e4e!important;
     position: relative; 
+    /* margin-top: 5%; */
   }
   
   h1,
@@ -138,6 +139,7 @@ body {
   /* Title A */
   
   .title-box {
+    margin-top: 2%;
     margin-bottom: 4rem;
   }
   
@@ -397,7 +399,8 @@ body {
   
   .navbar-b {
     transition: all .5s ease-in-out;
-    background-color: transparent;
+    background-color: #000000;
+    /* background-color: transparent; */
     padding-top: 1.563rem;
     padding-bottom: 1.563rem;
   }
@@ -1083,6 +1086,7 @@ body {
   
   .icon {
     /* width: 18%; */
+    /* max-height: 15rem; */
     height: auto;
     width: 11.875rem;
     /* height: 11.25rem; */
