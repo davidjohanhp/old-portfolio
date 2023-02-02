@@ -1,9 +1,15 @@
 import React from "react";
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 class Contact extends React.Component {
   render() {
+    AOS.init({
+        duration: 1000
+      });
     return (
-      <section id="contact" className="contact-mf sect-pt4 route">
+      <section id="contact" className="contact-mf sect-pt4 route" data-AOS="fade-down">
         <div className="container">
           <div className="row">
             <div className="col-sm-12">

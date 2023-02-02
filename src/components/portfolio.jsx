@@ -1,7 +1,5 @@
 import React from "react";
 
-import panda from "../img/panda.jpg";
-
 import rumahsehatweb_login from "../img/rumahsehat-web/rumahsehatweb-login.png";
 import rumahsehatweb_home from "../img/rumahsehat-web/rumahsehatweb-home.png";
 import rumahsehatweb_chart from "../img/rumahsehat-web/rumahsehatweb-chart.png";
@@ -15,6 +13,8 @@ import rumahsehatmob_makeappointment from "../img/rumahsehat-mobile/makeappointm
 import rumahsehatmob_appointmentsuccess from "../img/rumahsehat-mobile/appointmentsuccess.png";
 import rumahsehatmob_detailappointment from "../img/rumahsehat-mobile/detailappointment.png";
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 class Portfolio extends React.Component {
     constructor() {
@@ -25,8 +25,11 @@ class Portfolio extends React.Component {
     }
   
     render() {
+      AOS.init({
+        duration: 1000
+      });
       return (
-        <section id="work" className="portfolio-mf sect-pt4 route">
+        <section id="work" className="portfolio-mf sect-pt4 route" data-AOS="fade-down">
           <div className="container">
             <div className="row">
               <div className="col-sm-12">

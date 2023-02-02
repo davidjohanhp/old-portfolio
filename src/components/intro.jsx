@@ -1,6 +1,9 @@
-import React from "react";
+import React, {useEffect} from "react";
 import Typical from "react-typical"
 import introphoto from "../img/intro-photo.jpeg"
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const steps = [
   'Back End Developer', 1000,
@@ -10,9 +13,12 @@ const steps = [
 
 class Intro extends React.Component {
   render() {
+    AOS.init({
+      duration: 1000
+    });
     return (
       // <div id="home" className="intro route bg-image " style={{backgroundImage: "url("+bigImage+")"}}>
-      <div id="home" className="intro route bg-image background">
+      <div id="home" className="intro route bg-image background" data-AOS="fade-up">
         {/* <div id="stars" />
         <div id="stars2" />
         <div id="stars3" /> */}
