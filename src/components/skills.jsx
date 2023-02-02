@@ -12,6 +12,9 @@ import react from "../img/react-logo.png";
 import springboot from "../img/springboot-logo.png";
 // import htmlcssjs from "../img/html-css-js.png";
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 class Skills extends React.Component {
     constructor() {
       super();
@@ -33,8 +36,11 @@ class Skills extends React.Component {
     }
   
     render() {
+      AOS.init({
+        duration: 1000
+      });
       return (
-        <section id="skills" className="skills-mf sect-pt4 route">
+        <section id="skills" className="skills-mf sect-pt4 route" data-AOS="fade-down">
         <div className="container">
           <div className="row">
             <div className="col-sm-12">
