@@ -10,6 +10,7 @@ import js from "../img/js-logo.png";
 import postgres from "../img/postgres-logo.png";
 import react from "../img/react-logo.png";
 import springboot from "../img/springboot-logo.png";
+import flutter from "../img/flutter-logo.png"
 // import htmlcssjs from "../img/html-css-js.png";
 
 import AOS from 'aos';
@@ -94,6 +95,12 @@ class Skills extends React.Component {
                       className="icon icon-card"
                     />
                     <img
+                      src={flutter}
+                      alt=""
+                      loading="lazy"
+                      className="icon icon-card"
+                    />
+                    <img
                       src={django}
                       alt=""
                       loading="lazy"
@@ -121,6 +128,12 @@ class Skills extends React.Component {
                       className="icon icon-card"
                     />
                     <img
+                      src={heroku}
+                      alt=""
+                      loading="lazy"
+                      className="icon icon-card"
+                    />
+                    <img
                       src={docker}
                       alt=""
                       loading="lazy"
@@ -133,7 +146,7 @@ class Skills extends React.Component {
                       src={heroku}
                       alt=""
                       loading="lazy"
-                      class="icon icon-card"
+                      className="icon icon-card"
                     /> */}
                     {/* <img
                       src={git}

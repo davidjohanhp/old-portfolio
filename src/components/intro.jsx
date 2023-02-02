@@ -18,7 +18,7 @@ class Intro extends React.Component {
     });
     return (
       // <div id="home" className="intro route bg-image " style={{backgroundImage: "url("+bigImage+")"}}>
-      <div id="home" className="intro route bg-image background" data-AOS="fade-up">
+      <div id="home" className="intro route bg-image background">
         {/* <div id="stars" />
         <div id="stars2" />
         <div id="stars3" /> */}
@@ -27,7 +27,7 @@ class Intro extends React.Component {
           <div className="table-cell">
             <div className="container">
               <div className="row">
-                <div className="col-md-7 align-middle">
+                <div className="col-md-7 align-middle" data-AOS="fade-right">
                   <div>
                     <h1 className="intro-title mb-4">Hello, I am <span className="name_big">David</span></h1>
                     <p className="intro-subtitle">
@@ -40,7 +40,7 @@ class Intro extends React.Component {
                     </p>
                   </div>
                 </div>
-                <div className="col-md-4 d-none d-md-block"> {/* hides on mobile */}
+                <div className="col-md-4 d-none d-md-block" data-AOS="fade-left"> {/* hides on mobile */}
                   <img src={introphoto} className="intro-photo rounded"></img>
                 </div>
               </div>
