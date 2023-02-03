@@ -38,22 +38,22 @@ class Intro extends React.Component {
                         </div>
                       </strong>
                     </p>
+                    <div className="d-flex justify-content-center">
+                      <p className="">
+                        <a className="btn button-work" href="#work" role="button">
+                          Check Out My Work!
+                        </a>
+                      </p>
+                    </div>
+                    {/* <button href="#work">
+                      Button
+                    </button> */}
                   </div>
                 </div>
                 <div className="col-md-4 d-none d-md-block" data-AOS="fade-left"> {/* hides on mobile */}
                   <img src={introphoto} className="intro-photo rounded"></img>
                 </div>
               </div>
-              
-              {/* <p className="pt-3">
-                <a
-                  className="btn btn-primary btn js-scroll px-4"
-                  href="#work"
-                  role="button"
-                >
-                  View My Work
-                </a>
-              </p> */}
             </div>
           </div>
         </div>
