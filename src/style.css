@@ -5,6 +5,7 @@ body {
     background-color: #000000!important;
     color: #4e4e4e!important;
     position: relative; 
+    /* margin-top: 5%; */
   }
   
   h1,
@@ -138,6 +139,7 @@ body {
   /* Title A */
   
   .title-box {
+    margin-top: 2%;
     margin-bottom: 4rem;
   }
   
@@ -397,7 +399,8 @@ body {
   
   .navbar-b {
     transition: all .5s ease-in-out;
-    background-color: transparent;
+    background-color: #000000;
+    /* background-color: transparent; */
     padding-top: 1.563rem;
     padding-bottom: 1.563rem;
   }
@@ -814,7 +817,7 @@ body {
   
   .contact-mf {
     /* margin-top: 1%; */
-    margin-bottom: 20%;
+    margin-bottom: 10%;
   }
   
   /*
@@ -1083,6 +1086,7 @@ body {
   
   .icon {
     /* width: 18%; */
+    /* max-height: 15rem; */
     height: auto;
     width: 11.875rem;
     /* height: 11.25rem; */
@@ -1127,4 +1131,78 @@ body {
     /* font-weight: 700; */
     /* font-size: 250%; */
     display: inline;
+  }
+
+  .footer {
+    background-color: #ffffff;
+    /* width: 150%;     */
+  }
+
+  .footer-name {
+    color: rgb(0, 0, 0);
+    padding-top: 2.5%;
+    /* font-weight: lighter; */
+  }
+
+  .footer-desc {
+    color: rgb(0, 0, 0);
+    margin-bottom: 0%;
+    /* font-weight: lighter; */
+  }
+
+  .nav-item-footer {
+    padding-left: 1%;
+    font-size: 150%;
+    /* size: rem; */
+  }
+
+  .social-nav {
+    /* padding-top: 0%; */
+    padding-bottom: 2.5%;
+  }
+  
+  .intro-photo {
+    width: 100%;
+    /* resize: both; */
+  }
+
+  .align-middle {
+    /* display: inline; */
+    display: grid;
+    place-items: center;
+  }
+
+  .button-work {
+    align-items: center;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    /* font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"; */
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.5;
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    outline: 0;
+    border: 0;
+    padding: 1rem;
+    /* max-width: 85%; */
+    text-transform: none;
+    /* font-weight: lighter; */
+  }
+  
+  .button-work:before {
+    background-color: #fff;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    margin-right: 10px;
+    transition: all .42s cubic-bezier(.25,.8,.25,1);
+    width: 0;
+  }
+  
+  .button-work:hover:before {
+    background-color: #fff;
+    width: 3rem;
   }

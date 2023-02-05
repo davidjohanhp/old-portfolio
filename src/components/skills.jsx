@@ -10,7 +10,11 @@ import js from "../img/js-logo.png";
 import postgres from "../img/postgres-logo.png";
 import react from "../img/react-logo.png";
 import springboot from "../img/springboot-logo.png";
-import htmlcssjs from "../img/html-css-js.png";
+import flutter from "../img/flutter-logo.png"
+// import htmlcssjs from "../img/html-css-js.png";
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 class Skills extends React.Component {
     constructor() {
@@ -33,8 +37,11 @@ class Skills extends React.Component {
     }
   
     render() {
+      AOS.init({
+        duration: 1000
+      });
       return (
-        <section id="skills" className="skills-mf sect-pt4 route">
+        <section id="skills" className="skills-mf sect-pt4 route" data-AOS="fade-down">
         <div className="container">
           <div className="row">
             <div className="col-sm-12">
@@ -64,19 +71,19 @@ class Skills extends React.Component {
                       src={html}
                       alt=""
                       loading="lazy"
-                      class="icon icon-card"
+                      className="icon icon-card"
                     />
                     <img
                       src={css}
                       alt=""
                       loading="lazy"
-                      class="icon icon-card"
+                      className="icon icon-card"
                     />
                     <img
                       src={js}
                       alt=""
                       loading="lazy"
-                      class="icon icon-card"
+                      className="icon icon-card"
                     />
                   </div>
 
@@ -85,19 +92,25 @@ class Skills extends React.Component {
                       src={react}
                       alt=""
                       loading="lazy"
-                      class="icon icon-card"
+                      className="icon icon-card"
+                    />
+                    <img
+                      src={flutter}
+                      alt=""
+                      loading="lazy"
+                      className="icon icon-card"
                     />
                     <img
                       src={django}
                       alt=""
                       loading="lazy"
-                      class="icon icon-card"
+                      className="icon icon-card"
                     />
                     <img
                       src={springboot}
                       alt=""
                       loading="lazy"
-                      class="icon icon-card"
+                      className="icon icon-card"
                     />
                   </div>
 
@@ -106,19 +119,25 @@ class Skills extends React.Component {
                       src={postgres}
                       alt=""
                       loading="lazy"
-                      class="icon icon-card"
+                      className="icon icon-card"
                     />
                     <img
                       src={git}
                       alt=""
                       loading="lazy"
-                      class="icon icon-card"
+                      className="icon icon-card"
+                    />
+                    <img
+                      src={heroku}
+                      alt=""
+                      loading="lazy"
+                      className="icon icon-card"
                     />
                     <img
                       src={docker}
                       alt=""
                       loading="lazy"
-                      class="icon icon-card"
+                      className="icon icon-card"
                     />
                   </div>
 
@@ -127,7 +146,7 @@ class Skills extends React.Component {
                       src={heroku}
                       alt=""
                       loading="lazy"
-                      class="icon icon-card"
+                      className="icon icon-card"
                     /> */}
                     {/* <img
                       src={git}

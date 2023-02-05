@@ -1,5 +1,8 @@
 import React from "react";
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 class About extends React.Component {
     constructor() {
       super();
@@ -25,8 +28,11 @@ class About extends React.Component {
     }
   
     render() {
+      AOS.init({
+        duration: 1000
+      });
       return (
-        <section id="about" className="about-mf sect-pt4 route">
+        <section id="about" className="about-mf sect-pt4 route" data-AOS="fade-down">
           <div className="container">
           <div className="row">
             <div className="col-sm-12">
