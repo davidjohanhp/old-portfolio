@@ -1212,3 +1212,7 @@ body {
     border-top: 0px;
     padding-bottom: 3%;
   }
+
+  .card:hover {
+    transform: translateY(-4px);
+  }
