@@ -1206,3 +1206,9 @@ body {
     background-color: #fff;
     width: 3rem;
   }
+
+  .card-footer {
+    background: transparent;
+    border-top: 0px;
+    padding-bottom: 3%;
+  }
