@@ -16,7 +16,7 @@ import rumahsehatmob_detailappointment from "../img/rumahsehat-mobile/detailappo
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-import { FaInstagram, FaLinkedin, FaGithub, FaImages} from "react-icons/fa";
+import { FaInstagram, FaExternalLinkAlt, FaGithub, FaImages} from "react-icons/fa";
 
 class Portfolio extends React.Component {
     constructor() {
@@ -44,7 +44,7 @@ class Portfolio extends React.Component {
                 </div>
               </div>
             </div>
-            <div className="row porto">
+            <div className="row porto justify-content-center">
               <div className="col-md-4 d-flex">
                 <div class="card">
                   <div class="card-body">
@@ -182,6 +182,35 @@ class Portfolio extends React.Component {
                         <FaImages size={25}/>
                       </a> */}
                       <a href="https://gitlab.com/d02-pbp-2021/uas_project" title="Github">
+                        <FaGithub size={25} /> 
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  {/* untuk foto */}
+                </div>
+              </div>
+              <div className="col-md-4 d-flex pt-3">
+                <div class="card">
+                  <div class="card-body flex-column">
+                    <h5 class="card-title text-dark">Simple Posts Web</h5>
+                    <div className="d-flex gap-2">
+                      <span class="badge bg-dark">React Js</span>
+                      <span class="badge bg-dark">Golang Gin</span>
+                    </div>
+                    <p class="card-text pt-1">A simple posts website for users to create, edit, and delete text posts. 
+                    </p>
+                  </div>
+                  <div class="card-footer">
+                    <div className="d-flex gap-2 justify-content-center">
+                      <a href="https://posts-app-frontend.vercel.app/" title="Web">
+                        <FaExternalLinkAlt size={20} /> 
+                      </a>
+                      <a href="https://github.com/davidjohanhp/posts-app-frontend" title="Github">
+                        <FaGithub size={25} /> 
+                      </a>
+                      <a href="https://github.com/davidjohanhp/posts-app-backend" title="Github">
                         <FaGithub size={25} /> 
                       </a>
                     </div>
