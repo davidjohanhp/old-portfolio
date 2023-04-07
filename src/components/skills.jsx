@@ -8,9 +8,15 @@ import git from "../img/git-logo.png";
 import heroku from "../img/heroku-logo.png";
 import js from "../img/js-logo.png";
 import postgres from "../img/postgres-logo.png";
+import mysql from "../img/MySQL-logo.png";
 import react from "../img/react-logo.png";
 import springboot from "../img/springboot-logo.png";
+import go from "../img/go-logo.png";
 import flutter from "../img/flutter-logo.png"
+import android from "../img/android-logo.png"
+import bootstrap from "../img/bootstrap-logo.png"
+import tailwind from "../img/tailwind-logo.png"
+
 // import htmlcssjs from "../img/html-css-js.png";
 
 import AOS from 'aos';
@@ -58,14 +64,6 @@ class Skills extends React.Component {
             <div className="col">
               <div className="skills pt-4 pt-md-0">
                 <div class="skills-wrapper">
-                {/* <div>
-                    <img
-                      src={htmlcssjs}
-                      alt=""
-                      loading="lazy"
-                      class="icon icon-card"
-                    />
-                  </div> */}
                   <div>
                     <img
                       src={html}
@@ -85,6 +83,7 @@ class Skills extends React.Component {
                       loading="lazy"
                       className="icon icon-card"
                     />
+                    
                   </div>
 
                   <div>
@@ -101,6 +100,27 @@ class Skills extends React.Component {
                       className="icon icon-card"
                     />
                     <img
+                      src={android}
+                      alt=""
+                      loading="lazy"
+                      className="icon icon-card"
+                    />
+                    <img
+                      src={bootstrap}
+                      alt=""
+                      loading="lazy"
+                      className="icon icon-card"
+                    />
+                    <img
+                      src={tailwind}
+                      alt=""
+                      loading="lazy"
+                      className="icon icon-card"
+                    />
+                  </div>
+
+                  <div>
+                    <img
                       src={django}
                       alt=""
                       loading="lazy"
@@ -112,9 +132,12 @@ class Skills extends React.Component {
                       loading="lazy"
                       className="icon icon-card"
                     />
-                  </div>
-
-                  <div>
+                    <img
+                      src={go}
+                      alt=""
+                      loading="lazy"
+                      className="icon icon-card"
+                    />
                     <img
                       src={postgres}
                       alt=""
@@ -122,19 +145,7 @@ class Skills extends React.Component {
                       className="icon icon-card"
                     />
                     <img
-                      src={git}
-                      alt=""
-                      loading="lazy"
-                      className="icon icon-card"
-                    />
-                    <img
-                      src={heroku}
-                      alt=""
-                      loading="lazy"
-                      className="icon icon-card"
-                    />
-                    <img
-                      src={docker}
+                      src={mysql}
                       alt=""
                       loading="lazy"
                       className="icon icon-card"
@@ -142,13 +153,13 @@ class Skills extends React.Component {
                   </div>
 
                   <div>
-                    {/* <img
+                    <img
                       src={heroku}
                       alt=""
                       loading="lazy"
                       className="icon icon-card"
-                    /> */}
-                    {/* <img
+                    />
+                    <img
                       src={git}
                       alt=""
                       loading="lazy"
@@ -159,7 +170,7 @@ class Skills extends React.Component {
                       alt=""
                       loading="lazy"
                       class="icon icon-card"
-                    /> */}
+                    />
                   </div>
                 </div>
                   {/* <ul className='skills__list text-white'>
